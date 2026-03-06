@@ -1,0 +1,92 @@
+/* 배경 */
+body {
+  background-color: white;
+  color: #333;
+  padding : 40px;
+  margin : 0;
+}
+
+.container {
+  background-color: #ffffff;
+  padding : 30px;
+  border-radius: 12px;
+  max-width: 1200px;
+  margin : auto;
+}
+
+h1 {
+  color : #1e3c72;
+  margin-bottom: 20px;
+  font-size: 50px;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 10px;
+}
+
+h2 {
+  color : #1e3c72;
+  margin-bottom: 20px;
+  font-size: 30px;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+  background-color: #fff;
+}
+
+table, th, td {
+  border : 1px solid #ddd;
+}
+
+th {
+  background-color: #1e3c72;
+  color : white;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+}
+
+form {
+  display: inline-block;
+  margin: 10px 5px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.inline-form {
+  display : inline;
+}
+
+.section {
+  margin-top: 40px;
+}
+
+select, input[type="text" ], input[type="submit"], button {
+  padding : 10px 15px;
+  border-radius: 6px;
+  border : 1px solid #ccc;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+input[type="submit"], button {
+  background-color: #1e3c72;
+  color: white;
+  cursor : pointer;
+  transition: background-color 0.2s ease;
+}
+
+input[type="password"], input[type="date"],input[type="number"] {
+  padding : 10px 15px;
+  border-radius: 6px;
+  border : 1px solid #ccc;
+  font-size: 14px;
+  margin-top: 5px;
+}

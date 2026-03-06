@@ -1,0 +1,25 @@
+<HTML>
+    <!-- 경기 일정 추가하는 데 필요한 정보 입력하는 코드 -->
+    <HEAD>
+    <META http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="info_style.css">
+    </HEAD>
+    <BODY>
+    
+    <h1> 경기 일정 추가 </h1>
+    
+    <FORM METHOD="POST"  ACTION="Add_Match.php">
+        경기 날짜 : <INPUT TYPE ="date" NAME="Match_Day"> <br>
+        장소 : <INPUT TYPE ="text" NAME="Match_Place"> <br> 
+        상대 팀 : <INPUT TYPE ="text" NAME="Match_Team"> <br><br><br>
+        관리자 ID : <INPUT TYPE ="text" NAME="Manager_ID"><br>
+        관리자 비밀번호 : <INPUT TYPE ="password" NAME="PassWord"><br><br>
+        <INPUT TYPE="submit" style="width:90pt; height:45pt"  VALUE="추가"><br><br><br><br><br>
+    </FORM>
+    
+    <br><br>
+    <FORM action = "Match_Info.php" method="get">
+        <button type = "submit" style="width:90pt; height:45pt"> 뒤로가기</button>
+    </FORM>
+    </BODY>
+    </HTML>

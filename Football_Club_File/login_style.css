@@ -1,0 +1,57 @@
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #1e3c72;
+  display: flex;
+  flex-direction: column; /* 위아래 정렬 */
+  justify-content: center;
+  align-items: center;
+}
+
+/* form 디자인인 */
+form {
+  background-color: white;
+  padding : 40px 35px;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 400px;
+  border-collapse: collapse;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* h1 디자인 */
+h1 {
+  color: white;
+  font-weight: 600;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* 아이디와 비밀번호 입력 부분분 */
+input[type="text"], input[type="password"] {
+  padding: 14px 15px;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  
+}
+
+/* 버튼 */
+input[type="submit"] {
+  background-color: #1e3c72;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+}

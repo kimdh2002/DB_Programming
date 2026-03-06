@@ -1,0 +1,36 @@
+<HTML>
+    <!-- 구단에 선수를 추가하기 위해 필요한 정보를 입력하는 코드 -->
+    <HEAD>
+    <META http-equiv="content-type" content="text/html; charset=utf-8">
+     <link rel="stylesheet" href="info_style.css">
+    </HEAD>
+    <BODY>
+    
+    <h1> 선수 추가 </h1>
+    
+    <FORM METHOD="POST"  ACTION="Add_Player.php">
+        이름 : <INPUT TYPE ="text" NAME="Name"> <br>
+        생년월일 : <INPUT TYPE ="date" NAME="Birth"> <br> 
+        국적 : <INPUT TYPE ="text" NAME="Country"> <br> 
+       포지션 : <form method=GET name=frm1 action='Add_Player.php'>
+        <!-- 셀렉트 박스 설정 -->
+        <select name = Position>
+            <option value="GK" selected>GK
+            <option value="DF" selected>DF
+            <option value="MF" selected>MF 
+            <option value="FW" selected>FW
+            </option> </select> <br>
+        등번호 : <INPUT TYPE ="text" NAME="Back_Number"> <br> 
+        계약 기간 : <INPUT TYPE ="date" NAME="Contract_Period"> <br> 
+        연봉 : <INPUT TYPE ="text" NAME="Annual_Income"> <br><br><br>
+        관리자 ID : <INPUT TYPE ="text" NAME="Manager_ID"><br>
+        관리자 비밀번호 : <INPUT TYPE ="password" NAME="PassWord"><br>
+        <INPUT TYPE="submit"  VALUE="추가"><br><br><br><br><br>
+    </FORM>
+    
+    <br>
+    <FORM action = "Club.php" method="get">
+        <button type = "submit" style="width:90pt; height:45pt"> 뒤로가기</button>
+    </FORM>
+    </BODY>
+    </HTML>

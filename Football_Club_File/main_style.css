@@ -1,0 +1,48 @@
+/* 전체 배경 설정 */
+body {
+    background-color: #1e3c72;
+    color: white;
+    margin: 0;
+    padding : 40px 0 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+}
+
+h1 {
+    color: white;
+    margin: 0;
+    font-size: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: max-content; /* 너비를 글자 크기에 맞추기 */
+    white-space: nowrap;    /* 줄바꿈 방지 */
+    text-align: center;
+}
+
+/* form 구간을 박스 모양으로 출력 */
+form {
+    background-color: white;
+    color : #1e3c72;
+    padding : 25px 30px;
+    border-radius: 12px;
+    width: 300px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+input[type="submit"], button {
+    background-color: white;
+    color : #1e3c72;
+    padding : 10px 15px;
+    border-radius: 6px;
+    border: none;
+}
+
+/* 글지 크기와 굵기 */
+input[type="submit"] {
+    font-size: 20px;
+    font-weight: bold;
+}
